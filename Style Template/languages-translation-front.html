@@ -1,0 +1,40 @@
+<div class="headbar">
+  <a class="en head">Dutch</a>
+  <a class="cn head">翻译</a>
+</div>
+<br />
+<br />
+<div class="back">
+  <div class="en flarge fbold color1">{{English}}</div>
+</div>
+<br />
+<br />
+{{type:Dutch}}
+
+<script type="text/javascript">
+  [].forEach.call(document.querySelectorAll(".flarge"), function(V0) {
+    V0.innerHTML = V0.innerHTML
+      .replace(/(\&nbsp\;)/g, "\ ")
+      .replace(/(\u00A0)/g, "<br>")
+      .replace(/(\.\<br\>)/g, "\. ")
+      .replace(/(\ vi\.\ )/g, '<br><h class="en flarge style1 color1">vi.</h>')
+      .replace(/(a\.\ )/g, '<h class="en flarge style1 color1">a.</h>')
+      .replace(/(vi\.\ )/g, '<h class="en flarge style1 color1">vi.</h>')
+      .replace(/(vt\.\ )/g, '<h class="en flarge style1 color1">vt.</h>')
+      .replace(/(art\.\ )/g, '<h class="en flarge style1 color1">art.</h>')
+      .replace(/(aux\.\ )/g, '<h class="en flarge style1 color1">aux.</h>')
+      .replace(/(adj\.\ )/g, '<h class="en flarge style1 color1">adj.</h>')
+      .replace(/(adv\.\ )/g, '<h class="en flarge style1 color1">adv.</h>')
+      .replace(/(abbr\.\ )/g, '<h class="en flarge style1 color1">abbr.</h>')
+      .replace(/(ad\.\ )/g, '<h class="en flarge style1 color1">ad.</h>')
+      .replace(/(v\.\ )/g, '<h class="en flarge style1 color1">v.</h>')
+      .replace(/(int\.\ )/g, '<h class="en flarge style1 color1">int.</h>')
+      .replace(/(num\.\ )/g, '<h class="en flarge style1 color1">num.</h>')
+      .replace(/(conj\.\ )/g, '<h class="en flarge style1 color1">conj.</h>')
+      .replace(/(prep\.\ )/g, '<h class="en flarge style1 color1">prep.</h>')
+      .replace(/(pron\.\ )/g, '<h class="en flarge style1 color1">pron.</h>')
+      .replace(/(n\.\ )/g, '<h class="en flarge style1 color1">n.</h>')
+      .replace(/(interj\.\ )/g, '<h class="en flarge style1 color1">interj.</h>')
+      .replace(/(pl\.\ )/g, '<h class="en flarge style1 color1">pl.</h>')
+  });
+</script>

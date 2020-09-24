@@ -1,0 +1,46 @@
+<div class="headbar">
+  <a class="en head">Dutch</a>
+  <a class="cn head">听写</a>
+</div>
+
+<br />
+<br />
+{{type:cloze:Dutch}}
+<br />
+
+<br />
+<div class="back">
+  <div class="en flarge fbold color1">{{Dutch}}</div>
+  <hr class="line">
+  <div class="en fnormal color2">{{English}}</div>
+  <div class="en fsmall fitalic color2">{{Remark}}</div>
+</div>
+
+
+<script type="text/javascript">
+  [].forEach.call(document.querySelectorAll(".fnormal"), function(V0) {
+    V0.innerHTML = V0.innerHTML
+      .replace(/(\&nbsp\;)/g, "\ ")
+      .replace(/(\u00A0)/g, "<br>")
+      .replace(/(\.\<br\>)/g, "\. ")
+      .replace(/(\ vi\.\ )/g, '<br><h class="en fnormal style1 color2">vi.</h>')
+      .replace(/(a\.\ )/g, '<h class="en fnormal style1 color2">a.</h>')
+      .replace(/(vi\.\ )/g, '<h class="en fnormal style1 color2">vi.</h>')
+      .replace(/(vt\.\ )/g, '<h class="en fnormal style1 color2">vt.</h>')
+      .replace(/(art\.\ )/g, '<h class="en fnormal style1 color2">art.</h>')
+      .replace(/(aux\.\ )/g, '<h class="en fnormal style1 color2">aux.</h>')
+      .replace(/(adj\.\ )/g, '<h class="en fnormal style1 color2">adj.</h>')
+      .replace(/(adv\.\ )/g, '<h class="en fnormal style1 color2">adv.</h>')
+      .replace(/(abbr\.\ )/g, '<h class="en fnormal style1 color2">abbr.</h>')
+      .replace(/(ad\.\ )/g, '<h class="en fnormal style1 color2">ad.</h>')
+      .replace(/(v\.\ )/g, '<h class="en fnormal style1 color2">v.</h>')
+      .replace(/(int\.\ )/g, '<h class="en fnormal style1 color2">int.</h>')
+      .replace(/(num\.\ )/g, '<h class="en fnormal style1 color2">num.</h>')
+      .replace(/(conj\.\ )/g, '<h class="en fnormal style1 color2">conj.</h>')
+      .replace(/(prep\.\ )/g, '<h class="en fnormal style1 color2">prep.</h>')
+      .replace(/(pron\.\ )/g, '<h class="en fnormal style1 color2">pron.</h>')
+      .replace(/(n\.\ )/g, '<h class="en fnormal style1 color2">n.</h>')
+      .replace(/(interj\.\ )/g, '<h class="en fnormal style1 color20">interj.</h>')
+      .replace(/(pl\.\ )/g, '<h class="en fnormal style1 color2">pl.</h>')
+  });
+</script>

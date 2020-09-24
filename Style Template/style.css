@@ -1,0 +1,137 @@
+/*general style*/
+.card {
+  text-align: center;
+}
+
+.back {
+  background-color: #18adab;
+  border-radius: 7px;
+  color: #fff;
+  position: relative;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headbar {
+  border-left: 3px solid #ec6c4f;
+  padding: 0.1em 0em 0.1em 0.5em;
+  text-align: left;
+}
+
+.head {
+  color: #ec6c4f;
+  font-size: 22px;
+}
+
+/*font*/
+@font-face {
+  font-family: kt;
+  src: url("_kt.ttf");
+}
+
+.cn {
+  font-family: kt;
+}
+
+.en {
+  font-family: helvetica;
+}
+
+.flarge {
+  font-size: 40px;
+  line-height: 1.8;
+}
+
+.fnormal {
+  font-size: 28px;
+  line-height: 1.8;
+}
+
+.fsmall {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.fbold {
+  font-weight: bold;
+}
+
+.fitalic {
+  font-style: italic;
+}
+
+/*color*/
+.color1 {
+  color: #ffffff;
+}
+
+.color2 {
+  color: #ddebea;
+}
+
+
+/*special style*/
+.style1 {
+  margin-left: 10px;
+  background-color: #42a286;
+  padding: 0em 0.2em 0.1em 0.2em;
+  border-radius: 6px;
+  margin: 0.3em;
+}
+
+
+/*seperate line*/
+.line {
+  background-color: #56a844;
+  width: 95%;
+}
+
+hr {
+  border-radius: 2px;
+  display: inline-block;
+}
+
+
+/*cloze type*/
+#typeans {
+  font: 30px/30px helvetica;
+  text-align: center;
+  color: black;
+}
+
+.typeGood {
+  border: 2px solid #56a844;
+  border-radius: 0px;
+  height: 20px;
+  background-color: #56a844;
+  font: 30px helvetica;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+  padding: 0px 0px 2px 0px;
+}
+
+.typeMissed {
+  border: 2px solid #ec6c4f;
+  border-radius: 0px;
+  font: 30px helvetica;
+  background-color: #ec6c4f;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+  padding: 0px 0px 2px 0px;
+}
+
+.typeBad {
+  border: 2px solid #728d98;
+  border-radius: 0px;
+  font: 30px helvetica;
+  background-color: #728d98;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+  padding: 0px 0px 2px 0px;
+}
